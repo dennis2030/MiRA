@@ -1,0 +1,13 @@
+﻿<Window x:Class="KinectCollectData.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="472.973" Width="788.814">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Image Name="testImage" Margin="0,0,280,25" />
+        <Image Name="depthImage" HorizontalAlignment="Left" Height="210" Margin="524,10,0,0" VerticalAlignment="Top" Width="247"/>
+    </Grid>
+</Window>
